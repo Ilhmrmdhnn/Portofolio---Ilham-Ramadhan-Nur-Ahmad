@@ -4,6 +4,8 @@ import porto3 from '../assets/card3.png';
 import porto4 from '../assets/card4.png';
 import porto5 from '../assets/card5.png';
 import porto6 from '../assets/card6.png';
+import porto7 from '../assets/card7.png';
+import porto8 from '../assets/card8.png';
 
 const Card = () => {
   return (
@@ -47,6 +49,20 @@ const Card = () => {
           <a href="https://github.com/Ilhmrmdhnn/Project_Ketertarikan_Mahasiswa_UniversitasXXX_dalam_Berolahraga" target="_blank" className="block relative">
             <img className="w-full rounded-lg" src={porto1} alt="card" />
             <div className="text-center mt-2 dark:text-dtitle">Interest of Students at Universitas in Sports</div>
+          </a>
+        </div>
+      </div>
+      <div className="flex flex-col lg:flex-row w-full gap-y-4 lg:gap-4">
+        <div className="lg:flex-1 relative">
+          <a href="https://github.com/Ilhmrmdhnn/Dashboard-CashFlow" target="_blank" className="block relative">
+            <img className="w-full rounded-lg" src={porto7} alt="card" />
+            <div className="text-center mt-2 dark:text-dtitle">Dashboard CashFlow Using Power BI</div>
+          </a>
+        </div>
+        <div className="lg:flex-1 relative">
+          <a href="https://github.com/Ilhmrmdhnn/Dashboard-Sales-Using-Power-BI" target="_blank" className="block relative">
+            <img className="w-full rounded-lg" src={porto8} alt="card" />
+            <div className="text-center mt-2 dark:text-dtitle">Dashboard Sales Using Power BI</div>
           </a>
         </div>
       </div>
