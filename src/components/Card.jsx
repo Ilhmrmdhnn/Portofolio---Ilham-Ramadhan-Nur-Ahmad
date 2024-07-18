@@ -6,6 +6,7 @@ import porto5 from '../assets/card5.png';
 import porto6 from '../assets/card6.png';
 import porto7 from '../assets/card7.png';
 import porto8 from '../assets/card8.png';
+import porto9 from '../assets/card9.png';
 
 const Card = () => {
   return (
@@ -23,29 +24,27 @@ const Card = () => {
             <div className="text-center mt-2 dark:text-dtitle">Classification Gender</div>
           </a>
         </div>
-      </div>
-      <div className="flex flex-col lg:flex-row w-full gap-y-4 lg:gap-4">
-        <div className="lg:flex-1 order-2 relative">
+        <div className="lg:flex-1 relative">
           <a href="https://github.com/Ilhmrmdhnn/Sentiment-Analysis-of-Election-2024-in-Indonesia" target="_blank" className="block relative">
             <img className="w-full rounded-lg" src={porto4} alt="card" />
             <div className="text-center mt-2 dark:text-dtitle">Sentiment Analysis of Election 2024 in Indonesia</div>
           </a>
         </div>
-        <div className="lg:flex-1 order-1 relative">
+      </div>
+      <div className="flex flex-col lg:flex-row w-full gap-y-4 lg:gap-4">
+        <div className="lg:flex-1 relative">
           <a href="https://github.com/Ilhmrmdhnn/Project_Healtcare_Dataset_Stroke" target="_blank" className="block relative">
             <img className="w-full rounded-lg" src={porto3} alt="card" />
             <div className="text-center mt-2 dark:text-dtitle">Healthcare Stroke Classification</div>
           </a>
         </div>
-      </div>
-      <div className="flex flex-col lg:flex-row w-full gap-y-4 lg:gap-4">
-        <div className="lg:flex-1 order-2 relative">
+        <div className="lg:flex-1 relative">
           <a href="https://github.com/Ilhmrmdhnn/Predicted-BBCA-STOCK-USING-SMA-EMA" target="_blank" className="block relative">
             <img className="w-full rounded-lg" src={porto6} alt="card" />
             <div className="text-center mt-2 dark:text-dtitle">Predicted BBCA Stock Using SMA & EMA</div>
           </a>
         </div>
-        <div className="lg:flex-1 order-1 relative">
+        <div className="lg:flex-1 relative">
           <a href="https://github.com/Ilhmrmdhnn/Project_Ketertarikan_Mahasiswa_UniversitasXXX_dalam_Berolahraga" target="_blank" className="block relative">
             <img className="w-full rounded-lg" src={porto1} alt="card" />
             <div className="text-center mt-2 dark:text-dtitle">Interest of Students at Universitas in Sports</div>
@@ -63,6 +62,12 @@ const Card = () => {
           <a href="https://github.com/Ilhmrmdhnn/Dashboard-Sales-Using-Power-BI" target="_blank" className="block relative">
             <img className="w-full rounded-lg" src={porto8} alt="card" />
             <div className="text-center mt-2 dark:text-dtitle">Dashboard Sales Using Power BI</div>
+          </a>
+        </div>
+        <div className="lg:flex-1 relative">
+          <a href="https://github.com/Ilhmrmdhnn/Dashboard-Online-Sales-Using-Power-BI" target="_blank" className="block relative">
+            <img className="w-full rounded-lg" src={porto9} alt="card" />
+            <div className="text-center mt-2 dark:text-dtitle">Dashboard Online Sales Using Power BI</div>
           </a>
         </div>
       </div>
