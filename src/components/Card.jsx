@@ -18,13 +18,13 @@ const Card = () => {
         <div className="lg:flex-1 relative">
           <a href="https://github.com/Ilhmrmdhnn/Classification-Car" target="_blank" className="block relative">
             <img className="w-full rounded-lg" src={porto5} alt="card" />
-            <div className="text-center mt-2 dark:text-dtitle">Classification Car</div>
+            <div className="text-center mt-2 dark:text-dtitle">Classification of Cars Using Multiple Linear Regression</div>
           </a>
         </div>
         <div className="lg:flex-1 relative">
           <a href="https://github.com/Ilhmrmdhnn/Project_Classification_Logistic_Regression" target="_blank" className="block relative">
             <img className="w-full rounded-lg" src={porto2} alt="card" />
-            <div className="text-center mt-2 dark:text-dtitle">Classification Gender</div>
+            <div className="text-center mt-2 dark:text-dtitle">Gender Classification Analysis Using Logistic Regression</div>
           </a>
         </div>
         <div className="lg:flex-1 relative">
