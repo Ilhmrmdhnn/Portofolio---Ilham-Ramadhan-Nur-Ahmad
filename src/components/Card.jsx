@@ -7,6 +7,9 @@ import porto6 from '../assets/card6.png';
 import porto7 from '../assets/card7.png';
 import porto8 from '../assets/card8.png';
 import porto9 from '../assets/card9.png';
+import porto10 from '../assets/card10.png';
+import porto11 from '../assets/card11.png';
+import porto12 from '../assets/card12.png';
 
 const Card = () => {
   return (
@@ -68,6 +71,26 @@ const Card = () => {
           <a href="https://github.com/Ilhmrmdhnn/Dashboard-Online-Sales-Using-Power-BI" target="_blank" className="block relative">
             <img className="w-full rounded-lg" src={porto9} alt="card" />
             <div className="text-center mt-2 dark:text-dtitle">Dashboard Online Sales Using Power BI</div>
+          </a>
+        </div>
+      </div>
+      <div className="flex flex-col lg:flex-row w-full gap-y-4 lg:gap-4">
+        <div className="lg:flex-1 relative">
+          <a href="https://github.com/Ilhmrmdhnn/Flight-Operations-Dashboard" target="_blank" className="block relative">
+            <img className="w-full rounded-lg" src={porto10} alt="card" />
+            <div className="text-center mt-2 dark:text-dtitle">Flight Operation Dashboard Using Power BI</div>
+          </a>
+        </div>
+        <div className="lg:flex-1 relative">
+          <a href="https://github.com/Ilhmrmdhnn/Historical-Weather-Data-Analysis" target="_blank" className="block relative">
+            <img className="w-full rounded-lg" src={porto11} alt="card" />
+            <div className="text-center mt-2 dark:text-dtitle">Historical Weather Data Analysis Using Power BI</div>
+          </a>
+        </div>
+        <div className="lg:flex-1 relative">
+          <a href="https://github.com/Ilhmrmdhnn/Predict-and-Growth-analyst-employee" target="_blank" className="block relative">
+            <img className="w-full rounded-lg" src={porto12} alt="card" />
+            <div className="text-center mt-2 dark:text-dtitle">Predict & Growth Analyst Employee</div>
           </a>
         </div>
       </div>
