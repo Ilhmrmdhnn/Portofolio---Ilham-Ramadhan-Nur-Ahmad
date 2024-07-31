@@ -38,7 +38,7 @@ const Skill = () => {
       <Rate icon={<SiKeras className="text-red-500 text-3xl mr-2"/>} stars="4" language="Keras"/>
       <Rate icon={<SiTensorflow className="text-orange-500 text-3xl mr-2"/>} stars="4" language="TensorFlow"/>
       <Rate icon={<SiR className="text-blue-500 text-3xl mr-2"/>} stars="4" language="R"/>
-      <Rate icon={<FaChartBar className="text-yellow-500 text-3xl mr-2"/>} stars="3" language="Power BI"/>
+      <Rate icon={<FaChartBar className="text-yellow-500 text-3xl mr-2"/>} stars="4" language="Power BI"/>
       <Rate icon={<FaChartPie className="text-blue-500 text-3xl mr-2"/>} stars="3" language="Tableau"/>
       <Rate icon={<FaDatabase className="text-blue-600 text-3xl mr-2"/>} stars="3" language="SQL"/>
       {/* <Rate self="lg:col-end-3" icon={<SiArchlinux className="text-sky-600 text-3xl mr-2"/>} stars="4" language="Arch Linux"/> */}

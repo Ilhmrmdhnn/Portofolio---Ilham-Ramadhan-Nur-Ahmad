@@ -6,7 +6,7 @@ import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs"
 export const Title = () => {
   return (
     <div className="flex flex-col">
-      <h1 className="text-title dark:text-dtitle text-2xl mb-4">About Me</h1>
+      <h1 className="text-title dark:text-dtitle text-2xl mb-4">Contact Me</h1>
       <p className="text-subtitle dark:text-dsubtitle lg:w-4/5"></p>
     </div>
   )
