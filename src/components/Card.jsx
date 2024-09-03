@@ -15,6 +15,7 @@ import porto14 from '../assets/card14.png';
 import porto15 from '../assets/card15.png';
 import porto16 from '../assets/card16.png';
 import porto17 from '../assets/card17.png';
+import porto18 from '../assets/card18.png';
 
 const Card = () => {
   return (
@@ -76,6 +77,12 @@ const Card = () => {
           <a href="https://github.com/Ilhmrmdhnn/Next-Word-Prediction-using-Bidirectional-LSTM-BI-LSTM-" target="_blank" className="block relative">
             <img className="w-full rounded-lg" src={porto16} alt="card" />
             <div className="text-center mt-2 dark:text-dtitle">Next Word Prediction using Bidirectional LSTM (BI-LSTM)</div>
+          </a>
+        </div>
+        <div className="lg:flex-1 relative">
+          <a href="https://github.com/Ilhmrmdhnn/Project-Auto-Machine-Learning" target="_blank" className="block relative">
+            <img className="w-full rounded-lg" src={porto18} alt="card" />
+            <div className="text-center mt-2 dark:text-dtitle">Automation Machine Learning</div> 
           </a>
         </div>
       </div>
