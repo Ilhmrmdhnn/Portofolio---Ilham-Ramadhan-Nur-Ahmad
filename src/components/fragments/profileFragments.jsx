@@ -1,4 +1,4 @@
-import profile from '../../assets/poto.png';
+import profile from '../../assets/Foto Ilham Ramadhan Nur Ahmad.jpg';
 import twitterX from '../../assets/twitterX.svg'; // Correct the path if necessary
 import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
 
